@@ -1,9 +1,9 @@
-import styles from './ProjectsStyles.module.css';
-import viberr from '../../assets/viberr.png';
-import freshBurger from '../../assets/fresh-burger.png';
-import hipsster from '../../assets/hipsster.png';
-import fitLift from '../../assets/fitlift.png';
-import ProjectCard from '../../common/ProjectCard';
+import styles from "./ProjectsStyles.module.css";
+import LinkUpp from "../../assets/LinkUpp.jpeg";
+import QuickCart from "../../assets/QuickCart.jpeg";
+import KeeperApp from "../../assets/Keeper.jpeg";
+import Music from "../../assets/SpotifyClone.jpeg";
+import ProjectCard from "../../common/ProjectCard";
 
 function Projects() {
   return (
@@ -11,28 +11,28 @@ function Projects() {
       <h1 className="sectionTitle">Projects</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
-          src={viberr}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Viberr"
-          p="Streaming App"
+          src={LinkUpp}
+          link="https://github.com/SriNikethanP/mern-chat-app-pjt"
+          h3="LinkUpp"
+          p="Messaging Webiste"
         />
         <ProjectCard
-          src={freshBurger}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Fresh Burger"
-          p="Hamburger Restaurant"
+          src={QuickCart}
+          link="https://github.com/SriNikethanP/e-commerce-mern-frontend"
+          h3="QuickCart"
+          p="E-commerce Website"
         />
         <ProjectCard
-          src={hipsster}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="Hipsster"
-          p="Glasses Shop"
+          src={KeeperApp}
+          link="https://github.com/SriNikethanP/KeeperProject"
+          h3="Keeper App"
+          p="Notes Webiste"
         />
         <ProjectCard
-          src={fitLift}
-          link="https://github.com/Ade-mir/company-landing-page-2"
-          h3="FitLift"
-          p="Fitness App"
+          src={Music}
+          link="https://github.com/SriNikethanP/SpotifyProject"
+          h3="Yfitops"
+          p="spotifY clone Website"
         />
       </div>
     </section>

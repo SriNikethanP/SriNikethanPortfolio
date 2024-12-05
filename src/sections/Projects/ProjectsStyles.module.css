@@ -22,6 +22,41 @@
   }
 }
 
+.projectcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #19191a;
+  padding: 15px 20px;
+  border-radius: 20px;
+
+  /* img {
+    height: 200px;
+    width: 200px;
+  } */
+
+  a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #001d3d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none; /* Remove underline */
+    cursor: pointer;
+    font-weight: 500;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    transition: background-color 0.3s ease;
+  }
+
+  /* Hover effect */
+  a:hover {
+    background-color: #003566;
+  }
+}
 .projectsContainer {
   display: flex;
   flex-direction: column;

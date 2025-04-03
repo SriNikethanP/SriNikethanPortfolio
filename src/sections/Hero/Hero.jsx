@@ -8,7 +8,11 @@ import githubLight from "../../assets/github-light.svg";
 import githubDark from "../../assets/github-dark.svg";
 import linkedinLight from "../../assets/linkedin-light.svg";
 import linkedinDark from "../../assets/linkedin-dark.svg";
+<<<<<<< HEAD
 import CV from "../../assets/SriNikethanPonna_apr.pdf";
+=======
+import CV from "../../assets/SriNikethanPonna_Ats_Resume_Neutral.pdf";
+>>>>>>> d8a8d1078efa0747ad5c1a948c0f32e3e22400d7
 import { useTheme } from "../../common/ThemeContext";
 
 function Hero() {
